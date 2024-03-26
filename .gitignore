@@ -1,0 +1,62 @@
+# Dependency directories
+node_modules/
+vendor/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files #
+################################
+.idea/
+*.swp
+*.swo
+.vscode/
+*.sublime-workspace
+
+# Specific to your project #
+############################
+# You may need to add or remove files/directories specific to your project.
+# For example, if you have a directory for user uploads that you don't want to commit,
+# you would add that here.
+# e.g., /path/to/uploads/
+
+# Ignore HTML/CSS/JS build output files
+/dist
+
+# Ignore configuration files that may contain sensitive information
+.env
